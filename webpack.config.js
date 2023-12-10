@@ -1,7 +1,7 @@
 const path=require('path')
 
 module.exports={
-    mode:"devlopnment",
+    // mode:"devlopnment",
     entry:'./src/App.js',
     output:{
         path:path.resolve(__dirname,'dist'),
@@ -12,6 +12,18 @@ module.exports={
           directory: path.join(__dirname, 'dist'),
         },
         compress: true,
-        port: 3600,
+        port: 3900,
       },
+    module: {
+    rules: [
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        options: {
+          presets: ['@babel/preset-env']
+        }
+      }
+    ]
+  }
 }
