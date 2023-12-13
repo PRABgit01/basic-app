@@ -1,11 +1,11 @@
 import React from "react";
-import Buttons from "./buttons";
+import Icnbutton from "./icnbutton";
 
 export default {
   title: "Buttons",
-  component: Buttons,
+  component: Icnbutton,
 };
 
 
-export const listButton = () => <Buttons />;
+export const iconButtons = () => <Icnbutton />;
 // export const outlinedButton = () => <outlinedButton />;

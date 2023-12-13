@@ -14,5 +14,15 @@ const Buttons = () => {
   );
 };
 
+export const icons = ()=>{
+  return(
+<div>
+  
+</div>
+  )
+}
+
 export default Buttons;
+
+
 
