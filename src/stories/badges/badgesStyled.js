@@ -1,9 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledButton = styled.button`
   border: 2px solid;
-  background-color: red;
-  color: white;
+  background-color: ${(props) =>
+    props.variant === "outline" ? "white" : "pink"};
+  color: ${(props) =>
+    props.variant === "outline" ? "green" : "blue"};
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;

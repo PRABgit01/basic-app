@@ -6,5 +6,5 @@ export default {
   component: Buttons,
 };
 
-export const Buttonsc = () => <Buttons />;
+export const listButton = () => <Buttons />;
 export const hello = () => <Buttons />;

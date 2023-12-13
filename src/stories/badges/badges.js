@@ -7,6 +7,11 @@ const Badges = () => {
     <div>
       <button>Hello</button>
       <StyledButton>Styled Button</StyledButton>
+      <div>
+        <br></br>
+      </div>
+      <StyledButton variant='outline' >Styled Button</StyledButton>
+
     </div>
   );
 };
