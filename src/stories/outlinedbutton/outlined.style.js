@@ -15,6 +15,7 @@ border-top-right-radius :2px;
   font-size: 16px;
   cursor: pointer;
 `;
+
 export const SecondaryOutl = styled.button`
   border: 2px solid black ;
   width: 100;
