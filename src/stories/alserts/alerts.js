@@ -8,39 +8,36 @@ import {
   ASecondaryOutl,
   ASuccessOutl,
   ADngrOutl,
-  
 } from "./alserts.style";
 
-export const Alerts = () => {
+export const Alerts = ({ message,message2,message3,message4 }) => {
   return (
     <div>
-      <AlrtPrimary>
-        Primary! This is a Primary Alert - Check it now!
-      </AlrtPrimary>
+      <AlrtPrimary>{message}</AlrtPrimary>
       <AlrtSecondary>
-        Primary! This is a Primary Alert - Check it now!
+        {message2="Primary! This is a Primary Alert - Check it now!" }
       </AlrtSecondary>
-      <AlrtDngr>
-        Primary! This is a Primary Alert - Check it now!
-      </AlrtDngr>
-      <AlrtSuccess>Primary! This is a Primary Alert - Check it now!</AlrtSuccess>
+      <AlrtDngr>{message3="Primary! This is a Primary Alert - Check it now!"}</AlrtDngr>
+      <AlrtSuccess>
+        {message4="Primary! This is a Primary Alert - Check it now!"}
+      </AlrtSuccess>
     </div>
   );
 };
 
-export const Outlinedalert = () => {
+export const Outlinedalert = (outlinemessage1,outlinemessage2,outlinemessage3,outlinemessage4) => {
   return (
     <div>
       <AprimaryOutl>
-        Primary! This is a Primary Alert - Check it now!
+        {outlinemessage1="Primary! This is a Primary Alert - Check it now!"}
       </AprimaryOutl>
       <ASecondaryOutl>
-        Primary! This is a Primary Alert - Check it now!
+        {outlinemessage2="Primary! This is a Primary Alert - Check it now!"}
       </ASecondaryOutl>
       <ASuccessOutl>
-        Primary! This is a Primary Alert - Check it now!
+        {outlinemessage3="Primary! This is a Primary Alert - Check it now!"}
       </ASuccessOutl>
-      <ADngrOutl>Primary! This is a Primary Alert - Check it now!</ADngrOutl>
+      <ADngrOutl>{outlinemessage4="Primary! This is a Primary Alert - Check it now!"}</ADngrOutl>
     </div>
   );
 };

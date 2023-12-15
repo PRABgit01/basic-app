@@ -6,5 +6,5 @@ export default{
     component:Avtar
 }
 
-export const Avtars=()=><Avtar/>
-export const CircuAvtars=()=>CircuAvtar()
+export const Avtars=()=><Avtar />
+export const CircuAvtars=()=><CircuAvtar />
