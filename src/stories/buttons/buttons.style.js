@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import theme from "../theme";
 
 export const StyledButton = styled.button`
   border: 2px solid;
-  background-color: #ff4e54;
+  background-color: ${theme.primary};
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -15,7 +16,7 @@ export const StyledButton = styled.button`
 export const Dngr = styled.button`
   font-family: "Rubik", sans-serif;
   border: 2px solid;
-  background-color: #ff9800;
+  background-color: ${theme.warning};
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   color: white;
@@ -34,7 +35,7 @@ export const Dngr = styled.button`
 
 export const Primary = styled.button`
   border: 2px solid;
-  background-color: #ff4e54;
+  background-color: ${theme.primary};
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   color: white;
@@ -47,9 +48,9 @@ export const Primary = styled.button`
 `;
 
 export const Secondary = styled.button`
-  border: 2px solid #f3f4f6;
+  border: 2px solid ${theme.white};
   width: 100;
-  background-color: #f3f4f6;
+  background-color: ${theme.white};
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   color: black;
@@ -63,7 +64,7 @@ export const Secondary = styled.button`
 
 export const Success = styled.button`
   border: 2px solid;
-  background-color: #4caf50;
+  background-color: ${theme.success};
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   color: white;

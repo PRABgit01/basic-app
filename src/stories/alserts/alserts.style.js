@@ -27,6 +27,8 @@ export const AlrtDngr = styled.button`
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-bottom: 20px;
+
 `;
 
 export const AlrtPrimary = styled.button`
@@ -44,6 +46,8 @@ export const AlrtPrimary = styled.button`
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 20px;
+
 `;
 
 export const AlrtSecondary = styled.button`
